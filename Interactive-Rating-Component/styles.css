@@ -1,0 +1,24 @@
+.wrapper{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.wrapper input{
+    display: none;
+}
+
+.wrapper label{
+    position: relative;
+    font-size: 50px;
+    color: #ddd;
+    cursor: pointer;
+}
+
+.wrapper input:checked ~ .label{
+    color: yellow;
+}
+
+.wrapper .label:hover{
+    color: yellow;
+}
