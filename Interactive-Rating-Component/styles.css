@@ -1,24 +1,47 @@
-.wrapper{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper{
+    border: 2px solid white;
+    height: 300px;
+    width: 400px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.logo-wrapper{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+.logo{
+    color: orange;
 }
 
-.wrapper input{
-    display: none;
+.heading{
+    border: 2px solid rebeccapurple;
+    font-weight: 500;
+    font-size: 30px;
 }
 
-.wrapper label{
-    position: relative;
-    font-size: 50px;
-    color: #ddd;
-    cursor: pointer;
+.para{
+    font-size: 15px;
 }
 
-.wrapper input:checked ~ .label{
-    color: yellow;
+.ul-list{
+    list-style: none;
+    display: flex;
 }
 
-.wrapper .label:hover{
-    color: yellow;
+.li{
+    
 }
